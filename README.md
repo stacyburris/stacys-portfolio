@@ -14,7 +14,7 @@
 
 - localhost:8000
 - npm run develop
-- [Netlify]()
+- [Netlify](https://app.netlify.com/sites/gallant-wescoff-7ccfb6/settings/deploys)
 - [Repo](https://github.com/stacyburris/gatsby-portfolio)
 
 ### Deployment
