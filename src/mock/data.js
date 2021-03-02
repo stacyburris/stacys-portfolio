@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Hi my name is Stacy Burris and I am a full stack software developer with a past in cosmetology. Life has an exceptional way of guiding your future. In mine I have found that my creativity can flow into technology with bringing a unique perspective. I have discovered an interest in coding and the challenges that it brings. I am a hard worker, with grit and gut, who enjoy working in teams to help achieve user-centric solutions.',
   paragraphTwo:
-    'With my past experience as a cosmetologist, I have learned the values of listening to customers, understanding their pain points which allowed me to help deliver the most value. In addition I lead training for all new hirees and continuing education courses to help the business stay ahead. Through that I gained valuable skills in supporting a diverse clientele with efficient communication and a customer focused approach.',
+    'With my past experience as a cosmetologist, I have learned the values of listening to customers, understanding their pain points which allowed me to help deliver the most value. In addition I lead training for all new hiree and continuing education courses to help the business stay ahead. Through that I gained valuable skills in supporting a diverse clientele with efficient communication and a customer focused approach.',
   paragraphThree:
     'With values aligned I plan to use my skills plus past experiences to help your company go above and beyond in delivering solutions for users.',
   resume:
@@ -35,20 +35,20 @@ export const projectsData = [
     img: 'ParentPickup.png',
     title: 'Parent Pickup Coordinator',
     info:
-      'Front end application that links to a socket.io server and a express backend server. The three combine to create an app to provide a more organized, streamlined way of teachers being notified it’s time to send a child out when their ride arrives. Designed for principals, facilty and parents to ensure limited exposure between students (during Covid) and will help schools coordinate parent pickup at the end of the school day. This app uses Mongodb to store the data and is deployed backend to Heroku and frontend to Netlify. The app status changes via socket.io rooms: Red indicates parent has arrived and green indicates child has left the classroom.',
+      'This is a front end application that links to a socket.io server and a express backend server. The three combine to create an app to provide a more organized, streamlined way of teachers being notified it’s time to send a child out when their parent arrives. Designed with Covid in mind to limit exposure between class/pod/student to ease hassle for principals, facility and parents to control the end of the day procedures. This app uses MongoDB to store the data. Backend deployed to Heroku and frontend to Netlify. The app status changes via socket.io rooms: Red indicates parent has arrived and green indicates child has left the classroom.',
     info2:
-      'Future goals for this app include: Ability to send multiple notifications: Bus (yellow), and if multiple siblings go to the same school, send out all siblings. Administrative login and authorization. Full React Native Mobile App/Custom QR Code Generator. Pickup Permissions (make sure it\'s a parent!). Teacher communication to principal and a method of looking up student name if parent doesn\'t remember ID',
+      'Future goals for this app include: Bus (yellow) notifications feature. If multiple siblings go to the same school, send out all siblings. Administrative login and authorization. Full React Native Mobile App/Custom QR Code Generator.',
     url: 'https://parent-pickup-coordinator.netlify.app/',
     repo: 'https://github.com/parent-pickup-coordinator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'cyber-range.png',
+    img: 'cyber-collage.png',
     title: 'Cyber Range',
     info:
-      'Code Fellows wants to reinvent the Ops course to be tailored towards penetration testing and ethical hacking. To this end, at the 101 level, they want to introduce people to the basics of how to hack. They want to create a safe environment for practicing hacking skills--a "cyber range" as it were.',
+      'This app was created for the school I attended, Code Fellows, which wanted to reinvent the Ops 101 level course to be tailored towards penetration testing and ethical hacking. This platform gives a safe place to introduce people to the basics of how to hack. This creates an environment for practicing hacking skills: "cyber range". The core of the range is browser-based. The goal is to give people who are at the introductory knowledge level exposure to what is going on under the hood of their web browsers, and how it can be exploited.',
     info2:
-      'The core of the range is browser-based. The goal is to give people who are at the introductory knowledge level exposure to what is going on under the hood of their web browsers, and how it can be exploited.',
+      'The app is composed of 3 scenarios. First, covering base64 transcoding reference site and DOM-based modification of CSS visibility. The second HTML button elements, submit event explainer, event targets, event listeners, modals, window setTimeout() method and implementing modals across JavaScript, HTML, and CSS design. The third scenario features modal design, file linking through HTML, managing overlapping text, text centering and design.', 
     url: 'https://codefellows.github.io/cyber-range/',
     repo: 'https://github.com/codefellows/cyber-range', // if no repo, the button will not show up
   },
@@ -57,13 +57,12 @@ export const projectsData = [
     img: 'mod-support.png',
     title: 'Module Docs Support',
     info:
-      'A Command Line Interface that allows the user to request the docs for an assortment of Node Modules. The CLI will open the users default browser and display the requested documentation. Developers can install our npm package Mod-Support ($ npm install -g mod-support. ',
-    info2: 'Node Package Manager or npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client and online database packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched on the npm website.',
+      'This project is a Node Package Manager or npm which is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client and online database package, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched on the npm website.',
+    info2: 'Features include a Command Line Interface that allows the user to request the documentation for an assortment of Node Modules. The CLI will open the users default browser on selection and display the requested documentation. Developers/users are encouraged to contribute to this package and help easy that google rabbit hole for other developers. To install our npm package Mod-Support, simply enter ($ npm install -g mod-support) into your terminal of choice. (-g) will install globally.',
     url: 'https://www.npmjs.com/package/mod-support',
     repo: 'https://github.com/Mod-s/module-docs-support', // if no repo, the button will not show up
   },    
 ];
-
 
 // speakeasier 
 // Clean and simple travel app packed with user-friendly features! This is a lightweight, full-stack web application. Users have the ability to search for any location and save them to two different places. Boarding is a wish list page where you can save places you would like to visit and stamped is a list of places you have been.
