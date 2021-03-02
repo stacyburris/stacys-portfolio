@@ -32,13 +32,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'mod-support.png',
-    title: 'Module Docs Support',
+    img: 'ParentPickup.png',
+    title: 'Parent Pickup Coordinator',
     info:
-      'A Command Line Interface that allows the user to request the docs for an assortment of Node Modules. The CLI will open the users default browser and display the requested documentation. Developers can install our npm package Mod-Support ($ npm install -g mod-support)',
-    info2: 'mod-support |	Access the CLI overview',
-    url: 'https://www.npmjs.com/package/mod-support',
-    repo: 'https://github.com/Mod-s/module-docs-support', // if no repo, the button will not show up
+      'Front end application that links to a socket.io server and a express backend server. The three combine to create an app to provide a more organized, streamlined way of teachers being notified it’s time to send a child out when their ride arrives. Designed for principals, facilty and parents to ensure limited exposure between students (during Covid) and will help schools coordinate parent pickup at the end of the school day. This app uses Mongodb to store the data and is deployed backend to Heroku and frontend to Netlify. The app status changes via socket.io rooms: Red indicates parent has arrived and green indicates child has left the classroom.',
+    info2:
+      'Future goals for this app include: Ability to send multiple notifications: Bus (yellow), and if multiple siblings go to the same school, send out all siblings. Administrative login and authorization. Full React Native Mobile App/Custom QR Code Generator. Pickup Permissions (make sure it\'s a parent!). Teacher communication to principal and a method of looking up student name if parent doesn\'t remember ID',
+    url: 'https://parent-pickup-coordinator.netlify.app/',
+    repo: 'https://github.com/parent-pickup-coordinator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -53,16 +54,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'ParentPickup.png',
-    title: 'Parent Pickup Coordinator',
+    img: 'mod-support.png',
+    title: 'Module Docs Support',
     info:
-      'Clean and simple travel app packed with user-friendly features! This is a lightweight, full-stack web application. Users have the ability to search for any location and save them to two different places. Boarding is a wish list page where you can save places you would like to visit and stamped is a list of places you have been.',
-    info2:
-      'This information is piped from the Google Knowledge API, or application program interface. This API, though skimpy on details, is vast in its collection of locations, as well as relatively simple to access, being keyless.Languages: HTML, CSS, JavaScript, SQL. Libraries and Frameworks: Express, PostgreSQL, PG, jQuery, EJS, Superagent, Dotenv, Cors, Method Override, Nodemon.',
-    url: 'https://speakeasier.herokuapp.com/',
-    repo: 'https://github.com/stacyburris/Speakeasier', // if no repo, the button will not show up
-  },
+      'A Command Line Interface that allows the user to request the docs for an assortment of Node Modules. The CLI will open the users default browser and display the requested documentation. Developers can install our npm package Mod-Support ($ npm install -g mod-support. ',
+    info2: 'Node Package Manager or npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client and online database packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched on the npm website.',
+    url: 'https://www.npmjs.com/package/mod-support',
+    repo: 'https://github.com/Mod-s/module-docs-support', // if no repo, the button will not show up
+  },    
 ];
+
+
+// speakeasier 
+// Clean and simple travel app packed with user-friendly features! This is a lightweight, full-stack web application. Users have the ability to search for any location and save them to two different places. Boarding is a wish list page where you can save places you would like to visit and stamped is a list of places you have been.
+
+// This information is piped from the Google Knowledge API, or application program interface. This API, though skimpy on details, is vast in its collection of locations, as well as relatively simple to access, being keyless.Languages: HTML, CSS, JavaScript, SQL. Libraries and Frameworks: Express, PostgreSQL, PG, jQuery, EJS, Superagent, Dotenv, Cors, Method Override, Nodemon.
 
 // CONTACT DATA
 export const contactData = {
