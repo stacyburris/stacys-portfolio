@@ -53,8 +53,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'speakeasier.png',
-    title: 'Speakeasier',
+    img: 'ParentPickup.png',
+    title: 'Parent Pickup Coordinator',
     info:
       'Clean and simple travel app packed with user-friendly features! This is a lightweight, full-stack web application. Users have the ability to search for any location and save them to two different places. Boarding is a wish list page where you can save places you would like to visit and stamped is a list of places you have been.',
     info2:
