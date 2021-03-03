@@ -35,7 +35,7 @@ export const projectsData = [
     img: 'ParentPickup.png',
     title: 'Parent Pickup Coordinator',
     info:
-      'This is a front end application that links to a socket.io server and a express backend server. The three combine to create an app to provide a more organized, streamlined way of teachers being notified it’s time to send a child out when their parent arrives. Designed with Covid in mind to limit exposure between class/pod/student to ease hassle for principals, facility and parents to control the end of the day procedures. This app uses MongoDB to store the data. Backend deployed to Heroku and frontend to Netlify. The app status changes via socket.io rooms: Red indicates parent has arrived and green indicates child has left the classroom.',
+      'This is a frontend application that links to a socket.io server and a express backend server. The three combine to create an app to provide a more organized, streamlined way of teachers being notified it’s time to send a child out when their parent arrives. Designed with Covid in mind to limit exposure between class/pod/student to ease hassle for principals, facility and parents to control the end of the day procedures. This app uses MongoDB to store the data. Backend deployed to Heroku and frontend to Netlify. The app status changes via socket.io rooms: Red indicates parent has arrived and green indicates child has left the classroom.',
     info2:
       'Future goals for this app include: Bus (yellow) notifications feature. If multiple siblings go to the same school, send out all siblings. Administrative login and authorization. Full React Native Mobile App/Custom QR Code Generator.',
     url: 'https://parent-pickup-coordinator.netlify.app/',
@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'mod-support.png',
+    img: 'mod-s.png',
     title: 'Module Docs Support',
     info:
       'This project is a Node Package Manager or npm which is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client and online database package, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched on the npm website.',
