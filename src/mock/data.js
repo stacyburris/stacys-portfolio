@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     'With values aligned I plan to use my skills plus past experiences to help your company go above and beyond in delivering solutions for users.',
   resume:
-    'https://docs.google.com/document/d/1Dc8dYZIOitKd_y5Px7RLImjkntwNYaeX6S8oanhVFdk/edit?usp=sharing', // if no resume, the button will not show up
+    'https://docs.google.com/document/d/1RghY9Uol-FOu_5P-Ko2SE52u7r63ZgCUoO4G0Cs8DHg/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
