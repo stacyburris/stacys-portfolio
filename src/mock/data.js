@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Stacy Burris',
-  subtitle: 'Full-Stack JavaScript Developer',
+  subtitle: 'Software Developer, JavaScript',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'IMG-1973.JPG',
   paragraphOne:
-    'Full stack software developer with a background working within a cross-functional team and serving a diverse clientele via cosmetology. Coupled with direct experience handling ambiguous client requests, aligning on requirements and delivering results tailored to suit their needs. Passionate about writing reliable, maintainable and testable code while always focusing on the end user',
+    'Hi there! Software Developer here with a background working within a cross-functional team and serving a diverse clientele via cosmetology. Coupled with direct experience handling ambiguous client requests, aligning on requirements and delivering results tailored to suit their needs. Passionate about writing reliable, maintainable and testable code while always focusing on the end user',
   paragraphTwo:
     'With my past experience as a cosmetologist, I have learned the values of listening to customers, understanding their pain points which allowed me to help deliver the most value. In addition I lead training for all new hires which boosted monthly revenue, increased customer retention and reduced client churn for the salon. Through that I gained valuable skills in supporting a diverse clientele with efficient communication and a customer focused approach.',
   paragraphThree:
